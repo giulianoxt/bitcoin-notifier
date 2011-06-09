@@ -1,0 +1,17 @@
+Bitcoin notifier
+----------------
+
+This is a quick dirty hack to extract trading and currency information about
+[Bitcoin](http://bitcoin.org) from [UOL](http://economia.uol.com.br/cotacoes/)
+and [BitcoinCharts](http://bitcoincharts.com/markets). The script is meant to
+be called repeatedly as a cron job on Linux. 
+
+The script should be able to send desktop notifications when something interesting
+is happening. Future plans include integrating with Google Docs in order to update
+info on a spreadsheet.
+
+
+### Dependencies
+
+BeautifulSoup >=3.0.2
+
